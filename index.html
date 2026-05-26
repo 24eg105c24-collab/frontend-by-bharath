@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus AI Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-shape shape-1"></div>
+    <div class="background-shape shape-2"></div>
+    <div class="background-shape shape-3"></div>
+
+    <nav class="topbar">
+        <div class="container nav-inner">
+            <a href="#" class="brand">NEXUS AI</a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">AI Strategy • Intelligent Automation • Secure Insight</span>
+                    <h1>Build powerful AI experiences with a polished, modern front end.</h1>
+                    <p class="hero-text">Nexus AI delivers premium design, reliable performance, and smart automation for teams that want a standout digital presence.</p>
+                    <p id="typing" class="type-highlight"></p>
+                    <div class="hero-actions">
+                        <button class="btn primary" onclick="scrollToSection()">Explore Services</button>
+                        <a class="btn secondary" href="#contact">Talk to Us</a>
+                    </div>
+                </div>
+                <div class="hero-panel">
+                    <div class="panel-card">
+                        <h3>AI Insights</h3>
+                        <p>Real-time analytics, trend detection, and actionable intelligence for better decisions.</p>
+                    </div>
+                    <div class="panel-card">
+                        <h3>Secure Automation</h3>
+                        <p>Safeguard workflows and accelerate delivery with enterprise-grade automation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container section-heading">
+                <span class="eyebrow">What We Offer</span>
+                <h2>AI Services Designed For Growth</h2>
+                <p>From intelligent analytics to self-healing security systems, our solutions are built for modern teams.</p>
+            </div>
+            <div class="container cards-grid">
+                <article class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>AI Analytics</h3>
+                    <p>Turn data into growth with predictive insights and smart reporting.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Cyber Security</h3>
+                    <p>Protect your infrastructure with proactive AI threat detection.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">🤖</div>
+                    <h3>Automation</h3>
+                    <p>Streamline operations through intelligent workflow orchestration.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="team" class="section team">
+            <div class="container section-heading">
+                <span class="eyebrow">Community</span>
+                <h2>Trusted by a growing community</h2>
+                <p>Our user network is expanding with teams that rely on AI-driven results.</p>
+            </div>
+            <div class="container user-grid" id="users"></div>
+        </section>
+
+        <section class="section stats">
+            <div class="container stats-grid">
+                <div class="stat-box">
+                    <span>250+</span>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-box">
+                    <span>98%</span>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat-box">
+                    <span>30</span>
+                    <p>Industry Integrations</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container section-heading">
+                <span class="eyebrow">Let’s Connect</span>
+                <h2>Reach out for a custom AI solution</h2>
+                <p>Whether you want to launch a new product or optimize an existing one, we’re ready to help.</p>
+            </div>
+            <div class="container contact-grid">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Your Name" autocomplete="name" value="Bharath Kumar">
+                        <input type="email" id="email" placeholder="Your Email" autocomplete="email" value="24eg105c24@anurag.edu.in">
+                    </div>
+                    <textarea id="messageText" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Contact</h3>
+                        <p>Bharath Kumar<br>24eg105c24@anurag.edu.in</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Office</h3>
+                        <p>Global HQ • Designed for teams worldwide.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Response Time</h3>
+                        <p>Average reply in under 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2026 Nexus AI. Crafted for modern digital teams.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
